@@ -1,0 +1,26 @@
+@import './partials/resets';
+
+.header {
+    background-color: Black;
+    color: white;
+    display: flex;
+    height: 5rem;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 89.3vh;
+    &__top{
+        height: 35vh;
+        background: black;
+       clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
+    }
+    &__bottom{
+        height: 35vh;
+        background: black;
+        clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 100%);
+    }
+}
