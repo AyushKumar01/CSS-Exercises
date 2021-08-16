@@ -30,14 +30,22 @@ ul {
 }
 
 .main__left {
+  background: #cecbcb;
   width: 20%;
   height: 89vh;
   border-right: 2px solid black;
+  padding-left: 1.5rem;
 }
 
 .main__left-heading {
-  color: red;
+  color: #262629;
   font-weight: bold;
+}
+
+.main__right {
+  background: #f1efef;
+  width: 80%;
+  height: 89vh;
 }
 
 .header {

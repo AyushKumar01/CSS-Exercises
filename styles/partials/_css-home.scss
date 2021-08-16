@@ -1,0 +1,23 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    &__left{
+        background: rgb(206, 203, 203);
+        width: 20%;
+        height: 89vh;
+        border-right: 2px solid black;
+        padding-left: 1.5rem;
+
+    }
+    
+    &__left-heading{
+        color: rgb(38, 38, 41);
+        font-weight: bold;
+    }
+
+    &__right{
+        background: rgb(241, 239, 239);
+        width: 80%;
+        height: 89vh;
+    }
+}
