@@ -42,6 +42,11 @@ ul {
   font-weight: bold;
 }
 
+.main__left-links {
+  color: #262629;
+  text-decoration: none;
+}
+
 .main__right {
   background: #f1efef;
   width: 80%;
