@@ -53,6 +53,13 @@ ul {
   height: 89vh;
 }
 
+.main__right-trapezoid {
+  margin-left: 3rem;
+  border-top: 10vw solid transparent;
+  border-left: 70vw solid red;
+  border-bottom: 5vw solid transparent;
+}
+
 .header {
   background-color: Black;
   color: white;

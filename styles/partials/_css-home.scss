@@ -23,5 +23,17 @@
         background: rgb(241, 239, 239);
         width: 80%;
         height: 89vh;
+        //------  --------trapezoid---------------//
+        &-trapezoid{
+            margin-left: 3rem;
+            // width: 0;
+            // height: 10vh;
+            border-top: 10vw solid transparent;
+            border-left: 70vw solid red;
+            border-bottom: 5vw solid transparent;
+        }
     }
 }
+
+
+
