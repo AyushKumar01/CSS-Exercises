@@ -19,6 +19,11 @@ ul {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -58,6 +63,16 @@ ul {
   border-top: 10vw solid transparent;
   border-left: 70vw solid red;
   border-bottom: 5vw solid transparent;
+}
+
+.list {
+  margin: 40px 16px;
+}
+
+.list__element-img {
+  width: 100%;
+  margin-bottom: 2em;
+  background-color: #f0eeee;
 }
 
 .header {
