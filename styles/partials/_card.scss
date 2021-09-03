@@ -6,4 +6,48 @@
         margin-bottom: 2em;
         background-color: #f0eeee;
     }
+
+    &__element-card{
+        position: relative;
+    }
+
+    &__element-button{
+
+        border-radius: 5px;
+        border: 1px solid #ab2537fa;
+        padding: 1em 1.5em;
+        // display: inline-block;
+        // font-size: 1.5em;
+        font-style: italic;
+        // margin: 0 1em;
+        margin-bottom: 1em;
+        min-width: 10em;
+
+        &--overlay{
+            opacity: 0;
+            color: #fff;
+            text-align: center;
+            position: absolute;
+            top: 35%;
+            left: 34%;
+            transform: translate(-50%,-10%);
+            transition: all .25s ease;
+            z-index: 3;
+        }
+    }
+
+    &__element-arrow{
+        transition: all .25s ease;
+    }
+
+    &__element-overlay{
+        opacity: 0;
+        position: absolute;
+        background-color: #000;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        transition: all .25s ease;
+        z-index: 2;
+    }
 }
